@@ -1,5 +1,7 @@
 package com.tsw019.analyzer;
 
+import java.util.List;
+
 /**
  * 
  * @author Administrador
@@ -11,7 +13,7 @@ public class ClinicAnalyzer {
 	/*
 	 * Dummy distance analyze 
 	 */
-	public static String analyzeDistance(int distance) {
+	public String analyzeDistance(int distance) {
 
 		if (distance == 00)	return "alta";
 
@@ -19,6 +21,14 @@ public class ClinicAnalyzer {
 
 		return "baixa";
 
+	}
+	
+	public void analyzeOccupation() {
+		//TODO implement occupation analysis
+	}
+	
+	public boolean verifyTreatment(List<String> treatments, String treatment) {
+		return treatments.contains(treatment);
 	}
 
 }

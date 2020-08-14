@@ -1,14 +1,16 @@
-Feature: Ordenar as Clinicas conforme o SLA
+#language:pt
 
-Scenario Outline: Verificar se a clinica esta ate 15 KM da casa do paciente
+Funcionalidade: Ordenar as Clinicas conforme o SLA
 
-Given O paciente precisa de tratamento
+Esquema do Cenario: Verificar se a clinica esta ate 15 KM da casa do paciente
 
-When A clinica esta a "<KM distancia paciente>" KM de distancia
+Dado O paciente precisa de tratamento
 
-Then Clinica constara na lista com prioridade "<Relevancia na lista>"
+Quando A clinica esta a "<KM distancia paciente>" KM de distancia
 
-Examples:                      		
+Entao Clinica constara na lista com prioridade "<Relevancia na lista>"
+
+Exemplos:                      		
 | KM distancia paciente | Relevancia na lista |
 | 00                    | alta                |
 | 05                    | media               |
