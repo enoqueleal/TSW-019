@@ -9,7 +9,7 @@ When A clinica esta a "<KM distancia paciente>" KM de distancia
 Then Clinica constara na lista com prioridade "<Relevancia na lista>"
 
 Examples:                      		
-| KM distancia paciente	|	Relevancia na lista	|
-| 00										|	alta		 						|
-| 05										|	media								|
-| 10										|	baixa								|
+| KM distancia paciente | Relevancia na lista |
+| 00                    | alta                |
+| 05                    | media               |
+| 10                    | baixa               |
