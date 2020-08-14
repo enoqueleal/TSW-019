@@ -10,6 +10,6 @@ Then Clinica constara na lista com prioridade "<Relevancia na lista>"
 
 Examples:                      		
 | KM distancia paciente	|	Relevancia na lista	|
-| 00										|	prioridade alta		 	|
-| 05										|	prioridade media		|
-| 10										|	prioridade baixa		|
+| 00										|	alta		 						|
+| 05										|	media								|
+| 10										|	baixa								|

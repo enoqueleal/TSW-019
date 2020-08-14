@@ -27,7 +27,7 @@ public class Steps {
 	}
 
 	@Then("^Clinica constara na lista com prioridade \"(.*)\"$")
-	public void entao__a_clinica_constara_na_lista_com_prioridade(String prioridade) {
+	public void entao_a_clinica_constara_na_lista_com_prioridade(String prioridade) {
 		
 		String prioridadeRetornada = analyzeDistance(distancia);
 		

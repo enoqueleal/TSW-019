@@ -13,11 +13,11 @@ public class ClinicAnalyzer {
 	 */
 	public static String analyzeDistance(int distance) {
 
-		if (distance == 00)	return "prioridade alta";
+		if (distance == 00)	return "alta";
 
-		if (distance <= 05)	return "prioridade media";
+		if (distance <= 05)	return "media";
 
-		return "prioridade baixa";
+		return "baixa";
 
 	}
 
